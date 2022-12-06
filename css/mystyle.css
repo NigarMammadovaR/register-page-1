@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.register-page{
+    height: 100vh;
+    background-color: rgba(201, 205, 255, 0.504);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.form{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:white;
+    
+}
+
+.form-left{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.form-left img{
+    width: 80%;
+    height: 70%;
+}
+
+.form-left a{
+    margin-top: 22px;
+    color: black;
+}
+
+.form-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 70px;
+    
+
+
+}
+
+
+.form-right input {
+   
+    width: 80%;
+    height: 70px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    
+}
+
+.form-right input[type=text]{
+   padding: 30px 0px 0px 30px;
+   line-height: 15px;
+}
+
+.form-right h2{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+form{
+    position: relative;
+}
+.user{
+    position: absolute;
+    top: 40px;
+
+}
+
+.lock {
+    position: absolute;
+    top: 110px;
+    left: 5px;
+}
+
+.Name {
+    color: gray;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    
+  }
+
+.Password{
+    color: grey;
+    position: absolute;
+    top: 106px;
+    left: 30px;
+}
+
+
+.remember input{
+    width: 15px;
+    height: 15px;
+   
+
+}
+.remember{
+    display: flex;
+    justify-content:left;
+    margin-top: 30px;
+}
+.remember label{
+    margin-left: 20px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(99, 99, 214);
+    color: white;
+    margin-top: 60px;
+    border: none;
+
+}
+
+.social{
+    display: flex;
+    justify-content: baseline;
+     margin-top: 73px;
+}
+
+.social i{
+    margin-left: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.google{
+    background-color: red;
+    width: 16px;
+    height: 16px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    text-align: center;
+    padding-top: 4px;
+}
+
